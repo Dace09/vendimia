@@ -1,0 +1,210 @@
+/* General */
+#fecha{
+	color: white;
+	padding: 15px 15px 15px 15px;
+}
+
+#btn-nuevo{
+	float: right;
+}
+
+#btn-nuevo img{
+	width: 30px; 
+	padding-left: 5px;
+}
+
+#mensaje{
+	padding: 0;
+}
+
+.boton-guardar-alta,
+.boton-guardar-editar, 
+.boton-cancelar,
+.boton-siguiente{
+	float: right; 
+	margin-left: 10px;
+	margin-bottom: 20px;
+
+}
+
+.boton-alta{
+	float: right; 
+	margin-left: 10px;
+	margin-bottom: 20px;
+	display: none;
+}
+
+#tabla,#configuracion{
+	padding: 0;
+}
+
+#tabla img{
+	width:25px;
+	float:right;
+}
+
+#alta,#editar{
+	padding: 0;
+	display: none;
+}
+
+.cont{ 
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+.cont-form{ 
+	margin-bottom: 0;
+}
+
+.cont-cliente{
+	margin-top:10px
+}
+
+.label-venta{
+	text-align: center;
+}
+
+#label-venta{
+	width: 100%;
+}
+
+.label-rfc{
+	margin: 0;
+	padding: 7px 0 7px 0;
+	display: none;
+}
+
+.separador{
+	border-top: 2px solid #337ab7;
+}
+
+.img-agregar{
+	width: 30px;
+	padding-top: 3px;
+}
+
+.label-vacio,.label-existencia,
+.label-repetido,.label-config,
+.label-cliente,.label-cliente2,
+.label-articulo,.label-abonos,
+.cant,.maxcant{
+	margin: 0;
+	padding: 7px 0 7px 0;
+	display: none;
+	color: red;
+}
+
+.panel-venta{
+	border-top: 2px solid black;
+	padding: 15px 0 15px 0;
+}
+
+#cont-precio{
+	padding-right: 0;
+	display: none;
+}
+
+#precio-venta{
+	padding-left: 0;
+}
+
+#precio-venta > .cont-label{
+	float: left;
+}
+
+.abonos{
+	padding: 0px 0 15px 0;
+	display: none;
+}
+
+#titulo-abono{
+	text-align: center;
+	background-color: #A9CCE3;
+	margin-bottom: 0;
+	padding: 8px;
+	font-size: 14px;
+	border-bottom: 2px solid #ddd;
+}
+
+.cont-label{
+	width: 55%;
+	float: right;
+	margin-bottom:5px;
+	padding-left: 0;
+}
+
+.label-precios{
+	float: right;
+}
+
+#total,#bonificacion,
+#enganche{
+	float: left;
+}
+
+.label-form{
+	padding: 8px 8px 8px 8px;
+	margin-bottom: 0;
+	float: right;
+}
+
+#alta .input-form,
+#editar .input-form{
+	width: 100%;
+}
+
+#clave{
+	color: green;
+}
+
+.div-clave, #head-cant{
+	text-align: center;
+}
+
+#vacio1,#vacio2,
+#vacio3,#vacio4,
+#vacio11,#vacio22,
+#vacio33,#vacio44,
+#invalido,#invalido2{
+	color: red;
+	float: left;
+	margin-bottom: 0;
+	padding: 8px 8px 8px 0px;
+	display: none;
+}
+
+/* Dialogo pregunta */
+#modal-pregunta{
+	height: 100%;
+}
+
+.modal-dialog-pregunta{
+	top: 35%;
+	margin-top: 0;
+	margin-bottom: 0;	
+}
+
+.modal-dialog-pregunta > div{
+	margin: auto;
+}
+
+/* Dialogo carga */
+#modal-carga{
+	height: 100%;
+}
+
+.modal-dialog-carga{
+	top: 42%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.div-modal-carga{
+	text-align: center;
+	margin: auto;
+}
+
+.div-modal-carga > img{
+	width: 16%;
+}
